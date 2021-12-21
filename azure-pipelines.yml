@@ -44,11 +44,11 @@ steps:
     projects: '**/*.csproj'
 
 #Call the template from the pipeline - start
-- template: templates/build.yml
+- template: template/build.yml
   parameters:
     buildConfiguration: 'Debug'
 
-- template: templates/build.yml
+- template: template/build.yml
   parameters:
     buildConfiguration: 'Release'
 #Call the template from the pipeline - end
