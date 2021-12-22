@@ -51,7 +51,7 @@ steps:
 - template: template/build.yml
   parameters:
     buildConfiguration: 'Release'
-#Call the template from the pipeline - end
+#Call the template from the pipeline - fin
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
